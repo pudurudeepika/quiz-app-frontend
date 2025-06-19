@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.79d19d76.css",
-    "main.js": "/static/js/main.126d7cfd.js",
-    "static/js/453.d870571b.chunk.js": "/static/js/453.d870571b.chunk.js",
-    "index.html": "/index.html",
-    "main.79d19d76.css.map": "/static/css/main.79d19d76.css.map",
-    "main.126d7cfd.js.map": "/static/js/main.126d7cfd.js.map",
-    "453.d870571b.chunk.js.map": "/static/js/453.d870571b.chunk.js.map"
+    "main.css": "/pudurudeepika/quiz-app-frontend/static/css/main.79d19d76.css",
+    "main.js": "/pudurudeepika/quiz-app-frontend/static/js/main.b0e3e211.js",
+    "static/js/453.d870571b.chunk.js": "/pudurudeepika/quiz-app-frontend/static/js/453.d870571b.chunk.js",
+    "index.html": "/pudurudeepika/quiz-app-frontend/index.html",
+    "main.79d19d76.css.map": "/pudurudeepika/quiz-app-frontend/static/css/main.79d19d76.css.map",
+    "main.b0e3e211.js.map": "/pudurudeepika/quiz-app-frontend/static/js/main.b0e3e211.js.map",
+    "453.d870571b.chunk.js.map": "/pudurudeepika/quiz-app-frontend/static/js/453.d870571b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79d19d76.css",
-    "static/js/main.126d7cfd.js"
+    "static/js/main.b0e3e211.js"
   ]
 }
