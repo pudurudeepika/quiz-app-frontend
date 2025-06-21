@@ -10,7 +10,6 @@ A full-stack **Quiz Application** built using the **MERN stack** (MongoDB, Expre
 - 🔐 **User Authentication**: Secure signup and login using JWT and bcrypt
 - 🏠 **Home Page**: Welcoming screen for users after login
 - 🧾 **Dashboard**: Displays quiz cards based on coding languages or topics
-- ❓ **Quiz Functionality** *(Coming Soon)*: Users will be able to take timed quizzes and view results
 - 🌐 **API Tested**: All backend routes tested with Postman
 - 📦 **MongoDB**: Stores user data and quiz questions
 
