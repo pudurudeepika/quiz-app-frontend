@@ -11,7 +11,7 @@ const Dashboard = () => {
       <header style={{ backgroundColor: "rgb(233, 172, 230)", color: "purple" }} className="p-4 fs-1 mb-5 text-center fw-bold fs-3 shadow-lg mb-0">
         <span className="fs-3">SkillHunt - Dashboard</span>
         <div className='d-flex justify-content-start'>
-                    <button onClick={() => navigate('/')} 
+                    <button onClick={() => navigate('/home')} 
                     style={{
                             background: 'transparent',
                             border: 'none',
