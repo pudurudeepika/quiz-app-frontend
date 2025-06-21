@@ -5,7 +5,7 @@ const Quiz = () => {
     const [selectedLanguage, setSelectedLanguage] = useState(""); 
 
     useEffect(() => {
-        fetch("http://localhost:5000/api/quizzes/bulk")
+        fetch("https://quiz-app-backend-8hp3.onrender.com/api/quizzes/bulk")
             .then(response => response.json())
             .then(data => setQuizzes(data))  
             .catch(error => console.error("Error fetching questions:", error));

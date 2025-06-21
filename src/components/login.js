@@ -91,9 +91,6 @@ const Login = () => {
             alert(msg);
         }
     };
-    
-
-    
 
     return (
         <div style={{ backgroundColor: "rgb(118, 23, 134)", color: "orange", minHeight: "100vh", padding: "0px" }}>
