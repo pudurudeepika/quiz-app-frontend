@@ -1,11 +1,11 @@
 🔗 **Live Link:** [MERN QUIZ APP](https://quiz-app-frontend-mbdz1mzrd-pudurudeepikas-projects.vercel.app/)
 
-🔐 Demo Login
+🔐 **DEMO LOGIN**
 
-You can try the live app without signing up!
+- You can try the live app without signing up!
 
-**Email:** `demo@example.com`  
-**Password:** `test@123`
+`Email:` demo@example.com  
+`Password:` test@123
 ---
 # MERN Quiz App 
 
