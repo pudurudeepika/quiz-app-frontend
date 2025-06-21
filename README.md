@@ -1,4 +1,4 @@
-🔗 **Live Link:** [MERN QUIZ APP](https://quiz-app-frontend-mbdz1mzrd-pudurudeepikas-projects.vercel.app/)
+🔗 **Live Link:** [MERN QUIZ APP](https://quiz-app-frontend-ochre.vercel.app/login)
 
 🔐 **DEMO LOGIN**
 
