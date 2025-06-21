@@ -85,7 +85,7 @@ const Login = () => {
         try {
             const { data } = await loginUser(formData);
             localStorage.setItem("token", data.token);
-            navigate("/dashboard");
+            navigate("/home");
         } catch (error) {
             const msg = error?.response?.data?.message || "Login failed!";
             alert(msg);
