@@ -1,4 +1,4 @@
-v# MERN Quiz App 🧠
+# MERN Quiz App 
 
 A full-stack **Quiz Application** built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js). The app allows users to sign up, log in, and take quizzes from a dashboard. Backend APIs are tested using Postman, and data is stored in MongoDB.
 
