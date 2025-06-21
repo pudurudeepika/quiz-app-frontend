@@ -16,7 +16,7 @@ const QuizTest = () => {
   const [score, setScore] = useState(0);
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/api/quizzes/${language}`)
+    axios.get(`https://quiz-app-backend-8hp3.onrender.com/api/quizzes/${language}`)
       .then(response => {
         const shuffled = response.data.sort(() => 0.5 - Math.random());
         const selected = shuffled.slice(0, 5);
@@ -61,7 +61,7 @@ const QuizTest = () => {
     };
 
     try {
-      await axios.post('http://localhost:5000/api/results', resultData);
+      await axios.post('https://quiz-app-backend-8hp3.onrender.com/api/results', resultData);
     } catch (error) {
       console.error("Failed to save result:", error);
     }
