@@ -4,8 +4,8 @@
 
 - You can try the live app without signing up!
 
-Email: demo@example.com  
-Password: test@123
+- Email: demo@example.com  
+- Password: test@123
 ---
 # MERN Quiz App 
 
