@@ -1,5 +1,6 @@
 # MERN Quiz App 
-🔗 **Live Demo:** [https://skillhunt.vercel.app]((https://quiz-app-frontend-mml2wsct9-pudurudeepikas-projects.vercel.app/))
+🔗 **Live Demo:** [MERN QUIZ APP](https://quiz-app-frontend-mml2wsct9-pudurudeepikas-projects.vercel.app)
+
 A full-stack **Quiz Application** built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js). The app allows users to sign up, log in, and take quizzes from a dashboard. Backend APIs are tested using Postman, and data is stored in MongoDB.
 
 ---
