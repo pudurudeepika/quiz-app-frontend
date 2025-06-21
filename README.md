@@ -1,5 +1,13 @@
-# MERN Quiz App 
 🔗 **Live Link:** [MERN QUIZ APP](https://quiz-app-frontend-mbdz1mzrd-pudurudeepikas-projects.vercel.app/)
+
+🔐 Demo Login
+
+You can try the live app without signing up!
+
+**Email:** `demo@example.com`  
+**Password:** `test@123`
+---
+# MERN Quiz App 
 
 A full-stack **Quiz Application** built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js). The app allows users to sign up, log in, and take quizzes from a dashboard. Backend APIs are tested using Postman, and data is stored in MongoDB.
 
