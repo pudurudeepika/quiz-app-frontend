@@ -6,27 +6,12 @@ import { FiLogOut } from 'react-icons/fi';
 
 const Dashboard = () => {
   const navigate = useNavigate();
-  // const [user, setUser] = useState(null);
-
-  // useEffect(() => {
-  //   const fetchUser = async () => {
-  //     try {
-  //       const response = await fetch("/api/user");
-  //       const data = await response.json();
-  //       setUser(data);
-  //     } catch (error) {
-  //       console.error("Error fetching user:", error);
-  //     }
-  //   };
-  //   fetchUser();
-  // }, []);
-
   return (
     <div style={{ backgroundColor: "rgb(118, 23, 134)", color: "orange", minHeight: "100vh", padding: "0px" }}>
       <header style={{ backgroundColor: "rgb(233, 172, 230)", color: "purple" }} className="p-4 fs-1 mb-5 text-center fw-bold fs-3 shadow-lg mb-0">
         <span className="fs-3">SkillHunt - Dashboard</span>
         <div className='d-flex justify-content-start'>
-                    <button onClick={() => navigate('/home')} 
+                    <button onClick={() => navigate('/')} 
                     style={{
                             background: 'transparent',
                             border: 'none',

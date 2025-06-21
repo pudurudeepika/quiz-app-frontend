@@ -126,7 +126,7 @@ const QuizTest = () => {
       ) : (
         <div className="text-center mt-4 text-white">
           <h3>Your Score: {score} / {questions.length}</h3>
-          <button className="btn btn-primary mt-3" onClick={() => navigate("/home")}>Go to Home</button>
+          <button className="btn btn-primary mt-3" onClick={() => navigate("/dashboard")}>Go to Home</button>
         </div>
       )}
     </div>
