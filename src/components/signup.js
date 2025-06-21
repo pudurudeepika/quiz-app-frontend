@@ -24,11 +24,11 @@ const Signup = () => {
     e.preventDefault();
     try {
       const { data } = await registerUser(formData);
-      alert("Signup successful! Please login.");
-      localStorage.setItem("token", data.token);
+      alert(data.message || "Signup successful! Please login.");
+    //   localStorage.setItem("token", data.token);
       navigate("/login");
     } catch (error) {
-      alert("Signup failed. Try again.");
+      alert(error.response?.data?.message || "Signup failed. Try again.");
     }
   };
     return (
