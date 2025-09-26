@@ -57,7 +57,7 @@ A full-stack **Quiz Application** built using the **MERN stack** (MongoDB, Expre
 
 ## 🚀 Deployment
 
-- **Frontend**: React app (to be deployed on Vercel/Netlify)  
+- **Frontend**: React app (deployed on Netlify)  
 - **Backend**: Node.js + Express server deployed on **Render**  
 - **Database**: MongoDB Atlas
 
