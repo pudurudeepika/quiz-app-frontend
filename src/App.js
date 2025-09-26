@@ -5,7 +5,7 @@ import Home from './components/home';
 import Dashboard from './components/dashboard';  
 import Quiz from './components/quiz';
 import QuizTest from './components/quizTest';
-
+import About from './components/about';
 function App() {
     return (
         <Router>
@@ -18,6 +18,7 @@ function App() {
                 <Route path="/"  element={<Navigate to="/login" replace />} /> 
                 <Route path="/home" element={<Home />} />
                 <Route path="/dashboard" element={<Dashboard />} />
+                <Route path="/about" element={<About />}/>
             </Routes>
         </Router>
     );

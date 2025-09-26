@@ -3,12 +3,12 @@ import { useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {MdHome} from 'react-icons/md';
 import { FiLogOut } from 'react-icons/fi';
-
+import { FaInfoCircle } from 'react-icons/fa';
 const Dashboard = () => {
   const navigate = useNavigate();
   return (
-    <div style={{ backgroundColor: "rgb(118, 23, 134)", color: "orange", minHeight: "100vh", padding: "0px" }}>
-      <header style={{ backgroundColor: "rgb(233, 172, 230)", color: "purple" }} className="p-4 fs-1 mb-5 text-center fw-bold fs-3 shadow-lg mb-0">
+    <div style={{ backgroundColor: "rgba(30, 8, 73, 1)", color: "orange", minHeight: "100vh", padding: "0px" }}>
+      <header style={{ backgroundColor: "rgba(224, 217, 224, 1)", color: "black" }} className="p-4 fs-1 mb-5 text-center fw-bold fs-3 shadow-lg mb-0">
         <span className="fs-3">SkillHunt - Dashboard</span>
         <div className='d-flex justify-content-start'>
                     <button onClick={() => navigate('/home')} 
@@ -19,10 +19,25 @@ const Dashboard = () => {
                             position: 'absolute',
                             top: '25px',
                             left: '20px',
-                            color: 'purple'
+                            color: 'black'
                         }}title="Dashboard"> 
                         < MdHome size={28}/>
                     </button>
+                    <button
+                                  onClick={() => navigate('/about')}
+                                    style={{
+                                        background: 'transparent',
+                                        border: 'none',
+                                        cursor: 'pointer',
+                                        position: 'absolute',
+                                        top: '25px',
+                                        right: '100px',
+                                        color: 'black'
+                                    }}
+                                    title="About"
+                                    >
+                                    <FaInfoCircle size={28} />
+                                    </button>
                     <button
                         onClick={() => {
                             if (window.confirm("Are you sure you want to logout?")) {
@@ -37,7 +52,7 @@ const Dashboard = () => {
                             position: 'absolute',
                             top: '25px',
                             right: '20px',
-                            color: 'purple'
+                            color: 'black'
                         }}
                         title="Logout"
                         >
@@ -48,7 +63,7 @@ const Dashboard = () => {
 
       <div className="container">
         <h2 className="fw-bold fs-1 text-center text-white mt-5">Learn, Grow, Succeed!</h2>
-        <p className="lead fs-5 text-white mt-4 text-center">
+        <p className="lead fs-5 text-white mt-4 mb-5 text-center">
           Choose your language and dive into the MCQ challenge!
         </p>
       </div>

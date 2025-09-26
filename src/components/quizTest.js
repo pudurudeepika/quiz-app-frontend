@@ -70,23 +70,23 @@ const QuizTest = () => {
   if (loading) return <p className="text-center text-white mt-5">Loading Questions...</p>;
 
   return (
-    <div style={{ backgroundColor: "rgb(118, 23, 134)", color: "orange", minHeight: "100vh", padding: "0px" }}>
-      <header style={{ backgroundColor: "rgb(233, 172, 230)", color: "purple" }} className="p-4 fs-1 mb-5 text-center fw-bold shadow-lg">
+    <div style={{ backgroundColor: "rgba(30, 8, 73, 1)", color: "orange", minHeight: "100vh", padding: "0px" }}>
+      <header style={{ backgroundColor: "rgba(210, 203, 210, 1)", color: "black" }} className="p-4 fs-1 mb-3 text-center fw-bold fs-3 shadow-lg mb-0">
         <span className="fs-3">SkillHunt</span>
-        <button className="btn btn-light mb-3 d-flex align-items-center btn-outline-dark" onClick={() => navigate('/home')}>
-          <BsArrowLeft className="me-2" /> Back to Home
+        <button className="btn btn-light mb-3 d-flex align-items-center btn-outline-dark" onClick={() => navigate('/dashboard')}>
+          <BsArrowLeft className="me-2" /> Back to Dashboard
         </button>
       </header>
 
-      <h2 className="text-center fw-bold text-white m-5">Quiz for {language}</h2>
+      <h2 className="text-center fw-bold text-white" style={{marginTop:'90px', marginBottom:'50px'}}>Quiz for {language}</h2>
 
       {!showResult ? (
-        <div className="rounded-5 text-white p-5 fs-5 shadow-lg justify-content-center"
-             style={{ backgroundColor: "rgb(56, 15, 63)", margin: "0 auto", width: "700px" }}>
+        <div className="rounded-5 text-white p-5 fs-4 shadow-lg justify-content-center"
+             style={{ backgroundColor: "rgba(122, 135, 173, 1)", margin: "0 auto", width: "700px" }}>
           <h5 className="fw-bold fs-3">{currentQuestionIndex + 1}. {questions[currentQuestionIndex].question}</h5>
 
           {questions[currentQuestionIndex].options.map((option, index) => (
-            <div key={index} className="form-check p-1 m-3">
+            <div key={index} className="form-check p-1 m-3 fs-20px">
               <input
                 className="form-check-input"
                 type="radio"
@@ -102,6 +102,7 @@ const QuizTest = () => {
           <div className="d-flex justify-content-between mt-4">
             <button
               className="btn btn-warning"
+              style={{ cursor: "pointer" }}
               onClick={() => setCurrentQuestionIndex(currentQuestionIndex - 1)}
               disabled={currentQuestionIndex === 0}
             >
@@ -109,12 +110,15 @@ const QuizTest = () => {
             </button>
 
             {currentQuestionIndex === questions.length - 1 ? (
-              <button className="btn btn-success" onClick={calculateScore}>
+              <button className="btn btn-success" 
+              style={{ cursor: "pointer" }}
+              onClick={calculateScore}>
                 Submit
               </button>
             ) : (
               <button
-                className="btn btn-primary"
+                className="btn btn-primary p-3"
+                style={{ cursor: "pointer" }}
                 onClick={() => setCurrentQuestionIndex(currentQuestionIndex + 1)}
                 disabled={userAnswers[currentQuestionIndex] === null}
               >
