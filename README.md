@@ -66,19 +66,26 @@ A full-stack **Quiz Application** built using the **MERN stack** (MongoDB, Expre
 ## 📸 Screenshots
 
 - Signup Page
-![image](https://github.com/user-attachments/assets/27821953-c69e-4226-ac79-065ca90efd18)
+<img width="1912" height="923" alt="Screenshot 2025-09-26 091338" src="https://github.com/user-attachments/assets/7b8659f4-2b08-4e4c-8090-13ea000e4524" />
+
 
 - Login Page
-![image](https://github.com/user-attachments/assets/7e531380-b16c-4747-aa5f-af3e74346c5c)
+<img width="1911" height="922" alt="Screenshot 2025-09-26 091327" src="https://github.com/user-attachments/assets/1d81d766-76e3-491b-b3a1-b3b89085ee55" />
+
 
 - Home Page
-![image](https://github.com/user-attachments/assets/070a8130-fadd-4125-840d-cc90347e1d53)
+<img width="1910" height="923" alt="Screenshot 2025-09-26 094602" src="https://github.com/user-attachments/assets/b64bbda5-ee39-4402-8f00-a81b2fdb3406" />
+
 
 - Dashboard Page
-![image](https://github.com/user-attachments/assets/6fa73f23-ed4f-4795-9e28-57eb721570e9)
+<img width="1905" height="924" alt="Screenshot 2025-09-26 094731" src="https://github.com/user-attachments/assets/fac760c2-32f3-45fb-af30-506e79077f67" />
+
 
 - Quiz Page
-![image](https://github.com/user-attachments/assets/f1abc2d3-7dc8-41c2-a093-35d6db4b698e)
+<img width="1901" height="920" alt="Screenshot 2025-09-26 094741" src="https://github.com/user-attachments/assets/a4b1394b-98ba-407d-9f60-433f7a9ac509" />
+
+- About Page
+  <img width="1913" height="919" alt="Screenshot 2025-09-26 094722" src="https://github.com/user-attachments/assets/1faae145-88c5-49ee-8916-87df8aec8175" />
 
 
 
